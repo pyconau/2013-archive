@@ -47,6 +47,7 @@
 
 
         
+<link rel="stylesheet" href="/css/persona.css" type="text/css">
 
         <script type="text/javascript">
            jQuery(document).ready(function() {
@@ -83,7 +84,7 @@
 <div class="l"></div>
 <div class="r"></div>
       <ul class="netv-menu">
-          <li class="selected"><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
+          <li class=""><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
 
           <li class=""><a href="/about/pycon_australia"><span class="l"></span><span class="r"></span><span class="t">About</span></a></li>
 
@@ -91,13 +92,9 @@
 
           <li class=""><a href="/sponsors/sponsors"><span class="l"></span><span class="r"></span><span class="t">Sponsors</span></a></li>
 
-          <li class=""><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
-
-          <li class=""><a href="/grants"><span class="l"></span><span class="r"></span><span class="t">Financial Aid</span></a></li>
+          <li class=""><a href="/programme/call_for_proposals"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
 
           <li class=""><a href="/media/news"><span class="l"></span><span class="r"></span><span class="t">News</span></a></li>
-
-          <li class=""><a href="/faq"><span class="l"></span><span class="r"></span><span class="t">FAQ</span></a></li>
 
           <li class=""><a href="/contact"><span class="l"></span><span class="r"></span><span class="t">Contact</span></a></li>
 
@@ -136,14 +133,13 @@
 <ul class="netv-vmenu">
       
 
-      <li><a href="/person/signin"><span class="l"></span><span class="r"></span><span class="t">Sign in</span></a>
+      <li class="selected"><a href="/person/signin"><span class="l"></span><span class="r"></span><span class="t">Sign in</span></a>
 
       
 
       <li><a href="/person/new"><span class="l"></span><span class="r"></span><span class="t">Create an account</span></a>
 
-<div style="text-align:center;">
-</div>
+
 </ul>
 
                                             <div class="cleared"></div>
@@ -173,10 +169,10 @@
                                         <div class="netv-blockcontent-body">
                                             <!-- block-content -->
                                             			<ul>
-	<li><a href="/media/news/37">PyCon Australia needs volunteers!</a> <div class="date">(2013-06-25)</div></li>
-	<li><a href="/media/news/36">Mark Pesce and MooresCloud brings the Internet of Things to PyCon Australia</a> <div class="date">(2013-06-21)</div></li>
-	<li><a href="/media/news/34">PyCon Australia registration and accommodation deadlines fast approaching!</a> <div class="date">(2013-05-28)</div></li>
-	<li><a href="/media/news/31">Revealing the PyCon Australia 2013 Programme</a> <div class="date">(2013-05-06)</div></li>
+	<li><a href="/media/news/26">PyCon Australia introduces wide-ranging financial aid programme</a> <div class="date">(2013-04-30)</div></li>
+	<li><a href="/media/news/25">PyCon Australia 2013 Early Bird registrations almost sold out!</a> <div class="date">(2013-04-27)</div></li>
+	<li><a href="/media/news/24">Alex Gaynor to present keynote at PyCon Australia 2013</a> <div class="date">(2013-04-17)</div></li>
+	<li><a href="/media/news/22">PyCon Australia 2013 Call for Proposals closes this week!</a> <div class="date">(2013-04-01)</div></li>
 			</ul>
 			<p class = 'more'><a href = '/media/news'>More news...</a></p>
 
@@ -294,61 +290,57 @@ new TWTR.Widget({
 
                                         
 
+<h2 class="pop">Sign in</h2>
 
 
-<!-- <img src = '/images/heightfix.png' class = 'heightfix' alt = ''> -->
+<p>Don't want yet another single-use username/password?
 
-                                            <h2 class="netv-postheader">
-                              <img src="/images/postheadericon.png" width="26" height="26" alt="postheadericon">
-                              Welcome to PyCon Australia 2013!</h2>
+<p><a class="persona-button" href="javascript:login()"><span>Sign in with Persona</span></a></p>
 
-  <h2>July 5–7 2013, Hobart, Tasmania</h2>
+<form action="/person/persona_login" id="persona-form" method="post">
+<input id="assertion" name="assertion" type="hidden" value="" />
+</form>
 
-<img src="/images/page_images/pyconau_logo.png" style="width: 200px; float:right;" />
+<p>Otherwise enter your credentials in the following form.</p>
 
-<p><strong>PyCon Australia 2013 has now concluded! See you in Brisbane for PyCon Australia in August 2014!</strong></p>
+<form action="/person/signin" method="post">
 
-<p><strong><a href="http://www.youtube.com/playlist?list=PLs4CJRBY5F1KDIN6pv6daYWN_RnFOYvt0">Videos from PyCon Australia 2013</a> are now available on our Youtube Channel.</strong></p>
+    <p class="label"><label for="person.email_address">Email address:</label></p>
+    <p class="entries"><input id="personemail_address" name="person.email_address" size="40" type="text" /></p>
 
-<p>PyCon Australia is the national conference for users of the Python Programming Language.  In July 2013, we're returning to Hobart, bringing together students, enthusiasts, and professionals with a love of Python from around Australia, and from all over the World.</p>
+    <p class="label"><label for="person.password">Password:</label></p>
+    <p class="entries"><input id="personpassword" name="person.password" type="password" /></p>
 
-<p>Once again, we'll have a weekend packed full of amazing content on all aspects of the Python ecosystem, presented by experts and core developers of the tools and frameworks you use every day.</p>
+    <p class="submit"><input id="sign_in" name="Sign in" type="submit" value="Sign in" /></p>
 
-<p>We're excited about the return of Friday Night CodeWars, and of course, we've got the usual conference dinner, as well as two days of developer sprints following the conference proceedings.</p>
+</form>
 
-<p>We can't wait to share more about the conference in the coming months. Until then, subscribe to our <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcement list</a>, <a href="http://twitter.com/pyconau">follow us on twitter</a>, or <a href="http://lanyrd.com/2013/pycon-au/">add yourself to our Lanyrd page</a>.</p>
+<p>Don't have an account? <a href="/person/new">Sign up</a> now!</p>
 
-<h3>Conference programme revealed!</h3>
-
-<p>We're very pleased to be able to reveal the programme for <a href="http://2013.pycon-au.org/programme/schedule/saturday">PyCon Australia 2013.</a>.</p>
-
-<p>Our keynote presenters, <a href="http://2013.pycon-au.org/media/news/24">Alex Gaynor, software engineer at Rdio and core contributor to many Python open source projects</a>, and <a href="http://2013.pycon-au.org/media/news/27">Tennessee Leeuwenburg, software engineer at the Australian Bureau of Meteorology</a> will be joined by a wide array of presenters covering a broad range of backgrounds, including industry, research, government and academia.</p>
-
-<p>We're proud to have put together one of the strongest programmes at any regional Python conference anywhere in the world.</p>
-
-
-<h3>Conference Registration Now Open!</h3>
-
-<p>We want you to come to PyCon Australia 2013! <a href="http://2013.pycon-au.org/register/prices">Conference registrations are now open</a>, and until early June, <a href="http://2013.pycon-au.org/register/accommodation">accommodation at our venue, Wrest Point</a> will be available at a low rate.</p>
+<p>
+<a href="/person/forgotten_password">Forgotten your password?</a><br />
+If you have lost your log in details, please contact <a href="mailto:josh@nitrotech.org">josh@nitrotech.org</a>.
+</p>
 
 
-<h3>Now with three days of talks!</h3>
+<p>Note: this login is for the PyCon Australia 2013 website; we have not
+carried over any earlier login information, so you will need
+to register anew.</p>
 
-<p>In 2013, before the main event kicks off, we're welcoming two new mini-conferences on the Friday 5 July.</p>
+<script src="https://login.persona.org/include.js"></script>
+<script>
+function login() {
+    navigator.id.get(function (assertion) {
+      if (assertion) {
+        var assertion_field = document.getElementById("assertion");
+        assertion_field.value = assertion;
 
-<p><strong>DjangoCon AU</strong> is Australia's first national gathering for developers using the <a href="http://djangoproject.com">Django Web Framework</a>. Presented by the Django Software Foundation, this mini-conference will feature a day of Django-specific talks and tutorials to support the growing community of Australian Django Developers.</p>
-
-<p>The <strong>Python on OpenStack day</strong> is a day of in-depth talks and tutorials covering the <a href="http://openstack.org">OpenStack cloud platform</a> – one of the most important growing Open Source Python projects – for Python developers.</p>
-
-
-<h3>Dates &amp; Venue</h3>
-
-<p>Early Bird registration will open towards the end of March, and will run through April. Registration will remain open until close to the conference opening.</p>
-
-<p>The conference will be held in July, where we're moving into a bigger, better venue at the Wrest Point Convention Centre in Hobart. The Miniconfs will be held on Friday 5 July, the conference proceedings are on Saturday 6 &amp; Sunday 7 July, and the post-conference sprints will be on Monday 8 &amp; Tuesday 9 July.</p>
-
-<p>To keep track of our announcements, sign up to our (low-traffic) <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcements mailing list</a>.</p>
-
+        var login_form = document.getElementById("persona-form");
+        login_form.submit();
+      }
+    });
+}
+</script>
 
 
                                         <div class="netv-postcontent">

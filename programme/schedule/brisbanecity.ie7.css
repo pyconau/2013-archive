@@ -11,7 +11,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en-us">
     <head>
-        <title>PyCon Australia | July 5-7 2013 | Hobart, Tasmania</title>
+        <title>
+Friday Schedule - PyCon Australia | July 5-7 2013 | Hobart, Tasmania
+</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="prefetch" href="https://login.persona.org/include.js">
         <!-- <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"> -->
@@ -83,7 +85,7 @@
 <div class="l"></div>
 <div class="r"></div>
       <ul class="netv-menu">
-          <li class="selected"><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
+          <li class=""><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
 
           <li class=""><a href="/about/pycon_australia"><span class="l"></span><span class="r"></span><span class="t">About</span></a></li>
 
@@ -91,7 +93,7 @@
 
           <li class=""><a href="/sponsors/sponsors"><span class="l"></span><span class="r"></span><span class="t">Sponsors</span></a></li>
 
-          <li class=""><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
+          <li class="selected"><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
 
           <li class=""><a href="/grants"><span class="l"></span><span class="r"></span><span class="t">Financial Aid</span></a></li>
 
@@ -106,8 +108,38 @@
                         
 
 
+  <!-- Secondary navigation -->
+  <div class="netv-nav">
+          <div class="l"></div>
+      <div class="r"></div>
+
+        <ul class="netv-menu" style="background: #ccc !important">
+
+
+            <li><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Overview</span></a></li>
+
+            <li><a href="/programme/codewars"><span class="l"></span><span class="r"></span><span class="t">CodeWars</span></a></li>
+
+            <li><a href="/programme/miniconfs"><span class="l"></span><span class="r"></span><span class="t">Miniconfs</span></a></li>
+
+            <li class="selected" style="background: #fff !important"><a href=""><span class="l"></span><span class="r"></span><span class="t">Schedule</span></a></li>
+
+            <li><a href="/programme/sprints"><span class="l"></span><span class="r"></span><span class="t">Sprints</span></a></li>
+       </ul>
+    </div>
 
                         
+    <!-- Tertiary navigation -->
+    <div class="netv-nav">
+        <div class="l"></div>
+        <div class="r"></div>
+        <ul class="netv-menu" style="background: #ccc !important">
+
+            <li><a href="/programme/schedule/friday"><span class="l"></span><span class="r"></span><span class="t">Friday</span></a></li>
+            <li><a href="/programme/schedule/saturday"><span class="l"></span><span class="r"></span><span class="t">Saturday</span></a></li>
+            <li><a href="/programme/schedule/sunday"><span class="l"></span><span class="r"></span><span class="t">Sunday</span></a></li>
+        </ul>
+    </div>
 
                 </div>
                 <div class="netv-content-layout">
@@ -142,8 +174,7 @@
 
       <li><a href="/person/new"><span class="l"></span><span class="r"></span><span class="t">Create an account</span></a>
 
-<div style="text-align:center;">
-</div>
+
 </ul>
 
                                             <div class="cleared"></div>
@@ -295,59 +326,453 @@ new TWTR.Widget({
                                         
 
 
+<h2>Friday 05 July 2013</h2>
 
-<!-- <img src = '/images/heightfix.png' class = 'heightfix' alt = ''> -->
+<p class="note"><i>Schedule is subject to change without notice.</i></p>
 
-                                            <h2 class="netv-postheader">
-                              <img src="/images/postheadericon.png" width="26" height="26" alt="postheadericon">
-                              Welcome to PyCon Australia 2013!</h2>
+<table id="programme" style="" summary="Programme" cellpadding="" cellspacing="">
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th class="programme_room">
+        Derwent 1
+      </th>
+      <th class="programme_room">
+        Derwent 3
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
 
-  <h2>July 5–7 2013, Hobart, Tasmania</h2>
+      <th class="programme_slot" rowspan="12">
+        08:00<br />
+        -<br />
+        09:00
+      </th>
 
-<img src="/images/page_images/pyconau_logo.png" style="width: 200px; float:right;" />
+      <td class="programme_Housekeeping" colspan="2" rowspan="12">
+        Registration
+        <br />
+          <i>Derwent Registration Desk</i>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p><strong>PyCon Australia 2013 has now concluded! See you in Brisbane for PyCon Australia in August 2014!</strong></p>
+      <th class="programme_slot" rowspan="12">
+        09:00<br />
+        -<br />
+        10:00
+      </th>
 
-<p><strong><a href="http://www.youtube.com/playlist?list=PLs4CJRBY5F1KDIN6pv6daYWN_RnFOYvt0">Videos from PyCon Australia 2013</a> are now available on our Youtube Channel.</strong></p>
+      <td class="programme_Housekeeping" rowspan="2">
+        <b>09:00</b>:
+        DjangoCon AU Opening
+      </td>
 
-<p>PyCon Australia is the national conference for users of the Python Programming Language.  In July 2013, we're returning to Hobart, bringing together students, enthusiasts, and professionals with a love of Python from around Australia, and from all over the World.</p>
+      <td class="programme_Housekeeping" rowspan="3">
+        <b>09:00</b>:
+        OpenStack Miniconf Opening
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p>Once again, we'll have a weekend packed full of amazing content on all aspects of the Python ecosystem, presented by experts and core developers of the tools and frameworks you use every day.</p>
+      <td class="programme_Talks" rowspan="10">
+        <b>09:10</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/djangocon#gaynor">Keynote: A divided web, a review of the role of frameworks by Alex Gaynor</a>
+      </td>
+    </tr>
+    <tr>
 
-<p>We're excited about the return of Friday Night CodeWars, and of course, we've got the usual conference dinner, as well as two days of developer sprints following the conference proceedings.</p>
+      <td class="programme_Talks" rowspan="6">
+        <b>09:15</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/openstack#serong-1">WTF is OpenStack by Tim Serong</a>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p>We can't wait to share more about the conference in the coming months. Until then, subscribe to our <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcement list</a>, <a href="http://twitter.com/pyconau">follow us on twitter</a>, or <a href="http://lanyrd.com/2013/pycon-au/">add yourself to our Lanyrd page</a>.</p>
+      <td class="programme_Talks" rowspan="3">
+        <b>09:45</b>:
+        Hack Session Setup and Overview
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<h3>Conference programme revealed!</h3>
+      <th class="programme_slot" rowspan="6">
+        10:00<br />
+        -<br />
+        10:30
+      </th>
 
-<p>We're very pleased to be able to reveal the programme for <a href="http://2013.pycon-au.org/programme/schedule/saturday">PyCon Australia 2013.</a>.</p>
+      <td class="programme_Food" colspan="2" rowspan="6">
+        Morning Tea
+        <br />
+          <i>Portlight Bar</i>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p>Our keynote presenters, <a href="http://2013.pycon-au.org/media/news/24">Alex Gaynor, software engineer at Rdio and core contributor to many Python open source projects</a>, and <a href="http://2013.pycon-au.org/media/news/27">Tennessee Leeuwenburg, software engineer at the Australian Bureau of Meteorology</a> will be joined by a wide array of presenters covering a broad range of backgrounds, including industry, research, government and academia.</p>
+      <th class="programme_slot" rowspan="21">
+        10:30<br />
+        -<br />
+        12:15
+      </th>
 
-<p>We're proud to have put together one of the strongest programmes at any regional Python conference anywhere in the world.</p>
+      <td class="programme_Talks" rowspan="6">
+        <b>10:30</b>:
+        <a href="/schedule/30080/view_talk?day=brisbanecity.ie7.css">Porting Django apps to Python 3</a>
+        <i>by</i> <span class="by_speaker">Jacob Kaplan-Moss</span>
+      </td>
 
+      <td class="programme_Talks" rowspan="9">
+        <b>10:30</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/openstack#collins-1">Deploying OpenStack using OpenStack by Robert Collins</a>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<h3>Conference Registration Now Open!</h3>
+      <td class="programme_Talks" rowspan="9">
+        <b>11:00</b>:
+        <a href="/schedule/30026/view_talk?day=brisbanecity.ie7.css">Unleash the ponies! Using FeinCMS to add content tools that users love to any Django model</a>
+        <i>by</i> <span class="by_speaker">Greg Turner</span>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p>We want you to come to PyCon Australia 2013! <a href="http://2013.pycon-au.org/register/prices">Conference registrations are now open</a>, and until early June, <a href="http://2013.pycon-au.org/register/accommodation">accommodation at our venue, Wrest Point</a> will be available at a low rate.</p>
+      <td class="programme_Talks" rowspan="12">
+        <b>11:15</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/openstack#yeoh">Nova v3 API by Christopher Yeoh</a>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
+      <td class="programme_Talks" rowspan="6">
+        <b>11:45</b>:
+        <a href="/schedule/30034/view_talk?day=brisbanecity.ie7.css">Secrets of the testing masters</a>
+        <i>by</i> <span class="by_speaker">Russell Keith-Magee</span>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<h3>Now with three days of talks!</h3>
+      <th class="programme_slot" rowspan="9">
+        12:15<br />
+        -<br />
+        13:00
+      </th>
 
-<p>In 2013, before the main event kicks off, we're welcoming two new mini-conferences on the Friday 5 July.</p>
+      <td class="programme_Food" colspan="2" rowspan="9">
+        Lunch
+        <br />
+          <i>Portlight Bar</i>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p><strong>DjangoCon AU</strong> is Australia's first national gathering for developers using the <a href="http://djangoproject.com">Django Web Framework</a>. Presented by the Django Software Foundation, this mini-conference will feature a day of Django-specific talks and tutorials to support the growing community of Australian Django Developers.</p>
+      <th class="programme_slot" rowspan="21">
+        13:00<br />
+        -<br />
+        14:45
+      </th>
 
-<p>The <strong>Python on OpenStack day</strong> is a day of in-depth talks and tutorials covering the <a href="http://openstack.org">OpenStack cloud platform</a> – one of the most important growing Open Source Python projects – for Python developers.</p>
+      <td class="programme_Talks" rowspan="6">
+        <b>13:00</b>:
+        <a href="/schedule/30029/view_talk?day=brisbanecity.ie7.css">Django Unstrained</a>
+        <i>by</i> <span class="by_speaker">Simon Meers</span>
+      </td>
 
+      <td class="programme_Talks" rowspan="6">
+        <b>13:00</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/openstack#serong-2">OpenStack on openSUSE by Tim Serong</a>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<h3>Dates &amp; Venue</h3>
+      <td class="programme_Talks" rowspan="9">
+        <b>13:30</b>:
+        <a href="/schedule/30055/view_talk?day=brisbanecity.ie7.css">The Server Side: The coolest parts of backend development with Django</a>
+        <i>by</i> <span class="by_speaker">Tom Eastman</span>
+      </td>
 
-<p>Early Bird registration will open towards the end of March, and will run through April. Registration will remain open until close to the conference opening.</p>
+      <td class="programme_Talks" rowspan="6">
+        <b>13:30</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/openstack#collins-2">Testtools and Test Repository - the Python test frameworks OpenStack uses by Robert Collins</a>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p>The conference will be held in July, where we're moving into a bigger, better venue at the Wrest Point Convention Centre in Hobart. The Miniconfs will be held on Friday 5 July, the conference proceedings are on Saturday 6 &amp; Sunday 7 July, and the post-conference sprints will be on Monday 8 &amp; Tuesday 9 July.</p>
+      <td class="programme_Talks" rowspan="6">
+        <b>14:00</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/openstack#gettingstarted">Getting Started with OpenStack Development</a>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
 
-<p>To keep track of our announcements, sign up to our (low-traffic) <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcements mailing list</a>.</p>
+      <td class="programme_Talks" rowspan="6">
+        <b>14:15</b>:
+        <a href="/schedule/30094/view_talk?day=brisbanecity.ie7.css">A state of REST.</a>
+        <i>by</i> <span class="by_speaker">Curtis Maloney</span>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+
+      <td class="programme_Talks" rowspan="3">
+        <b>14:30</b>:
+        Introduction to OpenStack Hackfest
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+
+      <th class="programme_slot" rowspan="6">
+        14:45<br />
+        -<br />
+        15:15
+      </th>
+
+      <td class="programme_Food" colspan="2" rowspan="6">
+        Afternoon Tea
+        <br />
+          <i>Portlight Bar</i>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+
+      <th class="programme_slot" rowspan="30">
+        15:15<br />
+        -<br />
+        17:45
+      </th>
+
+      <td class="programme_Talks" rowspan="9">
+        <b>15:15</b>:
+        Core Developer Panel
+      </td>
+
+      <td class="programme_Talks" rowspan="29">
+        <b>15:15</b>:
+        OpenStack Hackfest
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+
+      <td class="programme_Talks" rowspan="10">
+        <b>16:00</b>:
+        <a href="http://2013.pycon-au.org/programme/miniconfs/djangocon#jay">Keynote: The myth of goldilocks and the three frameworks, Pyramid, Django and Plone by Dylan Jay</a>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+
+      <td class="programme_Talks" rowspan="8">
+        <b>16:50</b>:
+        DjangoCon AU Lightning Talks
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+
+      <td class="programme_Housekeeping" rowspan="3">
+        <b>17:30</b>:
+        DjangoCon AU Closing
+      </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+
+      <td class="programme_Housekeeping" rowspan="1">
+        <b>17:40</b>:
+        OpenStack Miniconf Close
+      </td>
+    </tr>
+</table>
+
+<p class="note"><i>Schedule is subject to change without notice.</i></p>
 
 
 

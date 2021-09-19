@@ -83,7 +83,7 @@
 <div class="l"></div>
 <div class="r"></div>
       <ul class="netv-menu">
-          <li class="selected"><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
+          <li class=""><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
 
           <li class=""><a href="/about/pycon_australia"><span class="l"></span><span class="r"></span><span class="t">About</span></a></li>
 
@@ -91,7 +91,7 @@
 
           <li class=""><a href="/sponsors/sponsors"><span class="l"></span><span class="r"></span><span class="t">Sponsors</span></a></li>
 
-          <li class=""><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
+          <li class="selected"><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
 
           <li class=""><a href="/grants"><span class="l"></span><span class="r"></span><span class="t">Financial Aid</span></a></li>
 
@@ -106,8 +106,38 @@
                         
 
 
+  <!-- Secondary navigation -->
+  <div class="netv-nav">
+          <div class="l"></div>
+      <div class="r"></div>
+
+        <ul class="netv-menu" style="background: #ccc !important">
+
+
+            <li><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Overview</span></a></li>
+
+            <li><a href="/programme/codewars"><span class="l"></span><span class="r"></span><span class="t">CodeWars</span></a></li>
+
+            <li><a href="/programme/miniconfs"><span class="l"></span><span class="r"></span><span class="t">Miniconfs</span></a></li>
+
+            <li class="selected" style="background: #fff !important"><a href=""><span class="l"></span><span class="r"></span><span class="t">Schedule</span></a></li>
+
+            <li><a href="/programme/sprints"><span class="l"></span><span class="r"></span><span class="t">Sprints</span></a></li>
+       </ul>
+    </div>
 
                         
+    <!-- Tertiary navigation -->
+    <div class="netv-nav">
+        <div class="l"></div>
+        <div class="r"></div>
+        <ul class="netv-menu" style="background: #ccc !important">
+
+            <li><a href="/programme/schedule/friday"><span class="l"></span><span class="r"></span><span class="t">Friday</span></a></li>
+            <li><a href="/programme/schedule/saturday"><span class="l"></span><span class="r"></span><span class="t">Saturday</span></a></li>
+            <li><a href="/programme/schedule/sunday"><span class="l"></span><span class="r"></span><span class="t">Sunday</span></a></li>
+        </ul>
+    </div>
 
                 </div>
                 <div class="netv-content-layout">
@@ -142,8 +172,7 @@
 
       <li><a href="/person/new"><span class="l"></span><span class="r"></span><span class="t">Create an account</span></a>
 
-<div style="text-align:center;">
-</div>
+
 </ul>
 
                                             <div class="cleared"></div>
@@ -296,58 +325,45 @@ new TWTR.Widget({
 
 
 
-<!-- <img src = '/images/heightfix.png' class = 'heightfix' alt = ''> -->
-
-                                            <h2 class="netv-postheader">
-                              <img src="/images/postheadericon.png" width="26" height="26" alt="postheadericon">
-                              Welcome to PyCon Australia 2013!</h2>
-
-  <h2>July 5–7 2013, Hobart, Tasmania</h2>
-
-<img src="/images/page_images/pyconau_logo.png" style="width: 200px; float:right;" />
-
-<p><strong>PyCon Australia 2013 has now concluded! See you in Brisbane for PyCon Australia in August 2014!</strong></p>
-
-<p><strong><a href="http://www.youtube.com/playlist?list=PLs4CJRBY5F1KDIN6pv6daYWN_RnFOYvt0">Videos from PyCon Australia 2013</a> are now available on our Youtube Channel.</strong></p>
-
-<p>PyCon Australia is the national conference for users of the Python Programming Language.  In July 2013, we're returning to Hobart, bringing together students, enthusiasts, and professionals with a love of Python from around Australia, and from all over the World.</p>
-
-<p>Once again, we'll have a weekend packed full of amazing content on all aspects of the Python ecosystem, presented by experts and core developers of the tools and frameworks you use every day.</p>
-
-<p>We're excited about the return of Friday Night CodeWars, and of course, we've got the usual conference dinner, as well as two days of developer sprints following the conference proceedings.</p>
-
-<p>We can't wait to share more about the conference in the coming months. Until then, subscribe to our <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcement list</a>, <a href="http://twitter.com/pyconau">follow us on twitter</a>, or <a href="http://lanyrd.com/2013/pycon-au/">add yourself to our Lanyrd page</a>.</p>
-
-<h3>Conference programme revealed!</h3>
-
-<p>We're very pleased to be able to reveal the programme for <a href="http://2013.pycon-au.org/programme/schedule/saturday">PyCon Australia 2013.</a>.</p>
-
-<p>Our keynote presenters, <a href="http://2013.pycon-au.org/media/news/24">Alex Gaynor, software engineer at Rdio and core contributor to many Python open source projects</a>, and <a href="http://2013.pycon-au.org/media/news/27">Tennessee Leeuwenburg, software engineer at the Australian Bureau of Meteorology</a> will be joined by a wide array of presenters covering a broad range of backgrounds, including industry, research, government and academia.</p>
-
-<p>We're proud to have put together one of the strongest programmes at any regional Python conference anywhere in the world.</p>
 
 
-<h3>Conference Registration Now Open!</h3>
+<p><a href="/programme/schedule">&lt;-- Back to schedule</a></p>
 
-<p>We want you to come to PyCon Australia 2013! <a href="http://2013.pycon-au.org/register/prices">Conference registrations are now open</a>, and until early June, <a href="http://2013.pycon-au.org/register/accommodation">accommodation at our venue, Wrest Point</a> will be available at a low rate.</p>
+<h2>scikit-learn, machine learning and cybercrime attribution</h2>
+	
+
+<table>
+
+  <tr class="even">
+    <td><strong>Project:</td>
+    <td colspan="5">
+      <a href="http://scikit-learn.org/">
+scikit-learn
+</a>
+</td>
 
 
-<h3>Now with three days of talks!</h3>
-
-<p>In 2013, before the main event kicks off, we're welcoming two new mini-conferences on the Friday 5 July.</p>
-
-<p><strong>DjangoCon AU</strong> is Australia's first national gathering for developers using the <a href="http://djangoproject.com">Django Web Framework</a>. Presented by the Django Software Foundation, this mini-conference will feature a day of Django-specific talks and tutorials to support the growing community of Australian Django Developers.</p>
-
-<p>The <strong>Python on OpenStack day</strong> is a day of in-depth talks and tutorials covering the <a href="http://openstack.org">OpenStack cloud platform</a> – one of the most important growing Open Source Python projects – for Python developers.</p>
+</table>
 
 
-<h3>Dates &amp; Venue</h3>
+<div id="proposal">
+<div class="abstract">
+<blockquote>
+<p>The scikit-learn library is a rapidly growing open source toolkit for machine learning in python. It allows for practitioners and researchers to apply machine learning in a variety of applications and is used by companies worldwide. Developed by programmers from around the world, the project has a large (and increasing) number of machine learning algorithms, a very useful set of utility functions and has also spawned a set of detailed tutorials. Written in python with the aid of numpy, scipy and cython, this library is featured, fast and extensible.<br /><br />In this talk, I will introduce scikit-learn, giving an overview of the library, its features and how to use it for a number of different applications. Next talk about some of the tutorials that are actively being developed for learning machine learning and scikit-learn and also how to contribute. Through this, I'll introduce some key machine learning concepts and how you can apply them to a variety of tasks. The focus will be on practical uses, rather than theoretical advances.<br /><br />To end the presentation, I'll briefly overview the research I perform at the Internet Commerce Security Laboratory (University of Ballarat) in cybercrime attribution, where I work with our industry partners to disrupt cybercrime. While it can be very difficult to do direct network based attribution, indirect methods through criminal profiling may assist in stopping crimes such as phishing or online fraud. I'll walk through some of our results in identifying the size and scope of the operations behind some of these attacks.</p>
+</blockquote>
+</div>
 
-<p>Early Bird registration will open towards the end of March, and will run through April. Registration will remain open until close to the conference opening.</p>
+<h2>Robert Layton</h2>
+<div class="bio">
+<blockquote>
+<div style="float: right; padding-left: 5px; padding-bottom: 5px; "><img src="https://seccdn.libravatar.org/avatar/e8a78675b2e22a5eda938f7146af689c?d=mm" alt=""></div>
+<p>
+Robert Layton is a researcher at the Internet Commerce Security Laboratory (ICSL) at the University of Ballarat. The ICSL is a joint partnership between UB, Westpac and the Australian Federal Police, with the aim to disrupting cybercrime and protecting the digital economy through research into long term solutions across three major research themes of attribution, malware and fraud. Robert has worked on projects and supervises students across all three of these areas, and has performed contracted work for Federal Government. Further, he is working on technologies for investigating cybercrime through international collaborations.<br />Robert investigates cybercrime attribution, using features within attacks to determine patterns and build machine learning models around those patterns. This research has led him to using scikit-learn and has multiple significant contributions to the library. Robert completed his PhD in 2011 investigating authorship of phishing attacks. His focus is on unsupervised methods, such as cluster analysis, both in cybercrime attribution and contributions to the scikit-learn library.
+</p></blockquote>
+</div>
 
-<p>The conference will be held in July, where we're moving into a bigger, better venue at the Wrest Point Convention Centre in Hobart. The Miniconfs will be held on Friday 5 July, the conference proceedings are on Saturday 6 &amp; Sunday 7 July, and the post-conference sprints will be on Monday 8 &amp; Tuesday 9 July.</p>
 
-<p>To keep track of our announcements, sign up to our (low-traffic) <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcements mailing list</a>.</p>
+</div>
 
 
 

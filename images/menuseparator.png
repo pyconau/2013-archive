@@ -11,17 +11,20 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en-us">
     <head>
-        <title>PyCon Australia | July 5-7 2013 | Hobart, Tasmania</title>
+        <title>
+Page not found! -
+ PyCon Australia 2012 | 18-19 August | Hobart, Tasmania
+</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="prefetch" href="https://login.persona.org/include.js">
         <!-- <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"> -->
         <link rel="shortcut icon" href="/images/filledfoot-small.png" type="image/png">
         <link rel="stylesheet" media="screen" href="/screen.css" type="text/css">
         <link rel="stylesheet" media="print" href="/print.css" type="text/css">
-        <script type="text/javascript" src="/jquery.min.js"></script>
+        <script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
 	<link rel="stylesheet" href="/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 	<script src="/prettyPhoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-        <link href="/media/news/rss" rel="alternate" type="application/rss+xml" title="PyConAU 2013 News">
+	<script src="/js/jquery.cross-slide.min.js" type="text/javascript" charset="utf-8"></script>
+        <link href="/media/news/rss" rel="alternate" type="application/rss+xml" title="LCA2012 News">
         <!--[if IE 6]><link rel="stylesheet" href="brisbanecity.ie6.css" type="text/css" media="screen" /><![endif]-->
         <!--[if IE 7]><link rel="stylesheet" href="brisbanecity.ie7.css" type="text/css" media="screen" /><![endif]-->
 	<script type="text/javascript" charset="utf-8">
@@ -57,7 +60,34 @@
              },function(){
                jQuery(this).fadeTo(250, 0.3);
              });
-           });
+ jQuery('#sponsorsother').crossSlide({
+                                                      sleep: 5,
+                                                      fade: 1,
+                                                      shuffle: 1
+                                                    }, [
+{ src: '/images/sponsors/99designs.png' },
+/*{ src: '/images/sponsors/acs.png' },*/
+{ src: '/images/sponsors/anchor.gif' },
+{ src: '/images/sponsors/atlassian.png' },
+{ src: '/images/sponsors/aw_ph.png' },
+{ src: '/images/sponsors/azure.png' },
+{ src: '/images/sponsors/csiro.png' },
+{ src: '/images/sponsors/django.png' },
+{ src: '/images/sponsors/ekit.png' },
+/*{ src: '/images/sponsors/Google.png' },*/
+{ src: '/images/sponsors/heroku.png' },
+{ src: '/images/sponsors/ionata.png' },
+{ src: '/images/sponsors/kogan.png' },
+{ src: '/images/sponsors/linuxaus.png' },
+{ src: '/images/sponsors/mozilla.png' },
+{ src: '/images/sponsors/newrelic.png' },
+{ src: '/images/sponsors/oreilly.png' },
+{ src: '/images/sponsors/python.png' },
+{ src: '/images/sponsors/red_hat.png' },
+{ src: '/images/sponsors/rimuhosting.png' },
+{ src: '/images/sponsors/secret_lab.png' },
+                                                ]);
+});
         </script>  
     </head>
     
@@ -83,7 +113,7 @@
 <div class="l"></div>
 <div class="r"></div>
       <ul class="netv-menu">
-          <li class="selected"><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
+          <li class=""><a href="/"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li>
 
           <li class=""><a href="/about/pycon_australia"><span class="l"></span><span class="r"></span><span class="t">About</span></a></li>
 
@@ -93,9 +123,9 @@
 
           <li class=""><a href="/programme/overview"><span class="l"></span><span class="r"></span><span class="t">Programme</span></a></li>
 
-          <li class=""><a href="/grants"><span class="l"></span><span class="r"></span><span class="t">Financial Aid</span></a></li>
-
           <li class=""><a href="/media/news"><span class="l"></span><span class="r"></span><span class="t">News</span></a></li>
+
+          <li class=""><a href="/diversity_grants"><span class="l"></span><span class="r"></span><span class="t">Diversity Grants</span></a></li>
 
           <li class=""><a href="/faq"><span class="l"></span><span class="r"></span><span class="t">FAQ</span></a></li>
 
@@ -132,7 +162,7 @@
 
 
 
-
+  
 <ul class="netv-vmenu">
       
 
@@ -142,8 +172,7 @@
 
       <li><a href="/person/new"><span class="l"></span><span class="r"></span><span class="t">Create an account</span></a>
 
-<div style="text-align:center;">
-</div>
+
 </ul>
 
                                             <div class="cleared"></div>
@@ -173,10 +202,10 @@
                                         <div class="netv-blockcontent-body">
                                             <!-- block-content -->
                                             			<ul>
-	<li><a href="/media/news/37">PyCon Australia needs volunteers!</a> <div class="date">(2013-06-25)</div></li>
-	<li><a href="/media/news/36">Mark Pesce and MooresCloud brings the Internet of Things to PyCon Australia</a> <div class="date">(2013-06-21)</div></li>
-	<li><a href="/media/news/34">PyCon Australia registration and accommodation deadlines fast approaching!</a> <div class="date">(2013-05-28)</div></li>
-	<li><a href="/media/news/31">Revealing the PyCon Australia 2013 Programme</a> <div class="date">(2013-05-06)</div></li>
+	<li><a href="/media/news/36">Call for Volunteers</a> <div class="date">(2012-08-08)</div></li>
+	<li><a href="/media/news/33">PyCon Australia dinner cruise and reception</a> <div class="date">(2012-07-30)</div></li>
+	<li><a href="/media/news/31">Four weeks until PyCon Australia 2012: Have you registered yet?</a> <div class="date">(2012-07-22)</div></li>
+	<li><a href="/media/news/30">Accommodation and registration deadlines fast approaching!</a> <div class="date">(2012-07-08)</div></li>
 			</ul>
 			<p class = 'more'><a href = '/media/news'>More news...</a></p>
 
@@ -205,9 +234,15 @@
                                         <div class="t">Sponsors</div>
                                     </div>
                                     <div class="netv-blockcontent">
-                                        <div class="netv-blockcontent-body">
+                                        <div class="netv-blockcontent-body" style="padding-left:28px">
                                             <!-- block-content -->
-                                              <!-- Sponsors on left column -->
+                                            <a href="/sponsors/sponsors" style="text-decoration: none;">
+<img src="/images/sponsors/Google.png" />
+<img src="/images/sponsors/acs.png" />
+<div id="sponsorsother" style="width: 200px; height:200px; margin:5px; margin-top:20px;">
+	<img src="/images/sponsors/linuxaus.png">
+</div>
+</a>
 
                                             <!-- /block-content -->
                                             <div class="cleared"></div>
@@ -293,61 +328,15 @@ new TWTR.Widget({
     </div>
 
                                         
+<h2>Oops!</h2>
 
+<p>
+The page you requested does not actually exist.
+</p>
 
-
-<!-- <img src = '/images/heightfix.png' class = 'heightfix' alt = ''> -->
-
-                                            <h2 class="netv-postheader">
-                              <img src="/images/postheadericon.png" width="26" height="26" alt="postheadericon">
-                              Welcome to PyCon Australia 2013!</h2>
-
-  <h2>July 5–7 2013, Hobart, Tasmania</h2>
-
-<img src="/images/page_images/pyconau_logo.png" style="width: 200px; float:right;" />
-
-<p><strong>PyCon Australia 2013 has now concluded! See you in Brisbane for PyCon Australia in August 2014!</strong></p>
-
-<p><strong><a href="http://www.youtube.com/playlist?list=PLs4CJRBY5F1KDIN6pv6daYWN_RnFOYvt0">Videos from PyCon Australia 2013</a> are now available on our Youtube Channel.</strong></p>
-
-<p>PyCon Australia is the national conference for users of the Python Programming Language.  In July 2013, we're returning to Hobart, bringing together students, enthusiasts, and professionals with a love of Python from around Australia, and from all over the World.</p>
-
-<p>Once again, we'll have a weekend packed full of amazing content on all aspects of the Python ecosystem, presented by experts and core developers of the tools and frameworks you use every day.</p>
-
-<p>We're excited about the return of Friday Night CodeWars, and of course, we've got the usual conference dinner, as well as two days of developer sprints following the conference proceedings.</p>
-
-<p>We can't wait to share more about the conference in the coming months. Until then, subscribe to our <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcement list</a>, <a href="http://twitter.com/pyconau">follow us on twitter</a>, or <a href="http://lanyrd.com/2013/pycon-au/">add yourself to our Lanyrd page</a>.</p>
-
-<h3>Conference programme revealed!</h3>
-
-<p>We're very pleased to be able to reveal the programme for <a href="http://2013.pycon-au.org/programme/schedule/saturday">PyCon Australia 2013.</a>.</p>
-
-<p>Our keynote presenters, <a href="http://2013.pycon-au.org/media/news/24">Alex Gaynor, software engineer at Rdio and core contributor to many Python open source projects</a>, and <a href="http://2013.pycon-au.org/media/news/27">Tennessee Leeuwenburg, software engineer at the Australian Bureau of Meteorology</a> will be joined by a wide array of presenters covering a broad range of backgrounds, including industry, research, government and academia.</p>
-
-<p>We're proud to have put together one of the strongest programmes at any regional Python conference anywhere in the world.</p>
-
-
-<h3>Conference Registration Now Open!</h3>
-
-<p>We want you to come to PyCon Australia 2013! <a href="http://2013.pycon-au.org/register/prices">Conference registrations are now open</a>, and until early June, <a href="http://2013.pycon-au.org/register/accommodation">accommodation at our venue, Wrest Point</a> will be available at a low rate.</p>
-
-
-<h3>Now with three days of talks!</h3>
-
-<p>In 2013, before the main event kicks off, we're welcoming two new mini-conferences on the Friday 5 July.</p>
-
-<p><strong>DjangoCon AU</strong> is Australia's first national gathering for developers using the <a href="http://djangoproject.com">Django Web Framework</a>. Presented by the Django Software Foundation, this mini-conference will feature a day of Django-specific talks and tutorials to support the growing community of Australian Django Developers.</p>
-
-<p>The <strong>Python on OpenStack day</strong> is a day of in-depth talks and tutorials covering the <a href="http://openstack.org">OpenStack cloud platform</a> – one of the most important growing Open Source Python projects – for Python developers.</p>
-
-
-<h3>Dates &amp; Venue</h3>
-
-<p>Early Bird registration will open towards the end of March, and will run through April. Registration will remain open until close to the conference opening.</p>
-
-<p>The conference will be held in July, where we're moving into a bigger, better venue at the Wrest Point Convention Centre in Hobart. The Miniconfs will be held on Friday 5 July, the conference proceedings are on Saturday 6 &amp; Sunday 7 July, and the post-conference sprints will be on Monday 8 &amp; Tuesday 9 July.</p>
-
-<p>To keep track of our announcements, sign up to our (low-traffic) <a href="http://lists.linux.org.au/listinfo/pycon-au-announce">announcements mailing list</a>.</p>
+<p>
+We admire your enthusiasm for requesting information, but this page simply does not exist. If you think that's wrong, you can <a href="mailto:webmaster@pycon-au.org">send us an email</a> and we'll attend to the problem.
+</p>
 
 
 
@@ -374,7 +363,7 @@ new TWTR.Widget({
                     <div class="netv-footer-inner">
                         <a href="/media/news/rss" class="netv-rss-tag-icon" title="RSS"></a>
                         <div class="netv-footer-text">
-                            <p>&copy; 2013 <a href="http://pycon-au.org/">PyCon Australia</a> and <a href="http://www.linux.org.au">Linux Australia</a> | <a href="http://validator.w3.org/check?uri=referer">Valid HTML 4.01</a> | <a href="/sitemap">Sitemap</a></p>
+                            <p>&copy; 2012 <a href="http://pycon-au.org/">PyCon Australia</a> and <a href="http://www.linux.org.au">Linux Australia</a> | <a href="http://validator.w3.org/check?uri=referer">Valid HTML 4.01</a> | <a href="/sitemap">Sitemap</a></p>
                         </div>
                         <div class="netv-footer-background"></div>
                         <div class="cleared"></div>
